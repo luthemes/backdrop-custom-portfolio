@@ -1,0 +1,314 @@
+# Copyright (C) 2024 Benjamin Lu
+# This file is distributed under the same license as the Backdrop Custom Portfolio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Backdrop Custom Portfolio 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/backdrop-custom-portfolio\n"
+"POT-Creation-Date: 2024-04-23 15:46:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.7\n"
+
+#: app/Portfolio/Component.php:32 app/Portfolio/Component.php:45
+msgid "Portfolios"
+msgstr ""
+
+#: app/Portfolio/Component.php:33 app/Portfolio/Component.php:34
+#: app/Portfolio/Component.php:35 app/Portfolio/Settings/Component.php:91
+#: app/functions-options.php:73
+msgid "Portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:36 app/Portfolio/Component.php:39
+msgid "New Portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:37
+msgid "Add New Portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:38
+msgid "Edit Portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:40
+msgid "View Portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:41
+msgid "View Portfolios"
+msgstr ""
+
+#: app/Portfolio/Component.php:42
+msgid "Search Portfolios"
+msgstr ""
+
+#: app/Portfolio/Component.php:43
+msgid "No Portfolios found"
+msgstr ""
+
+#: app/Portfolio/Component.php:44
+msgid "No Portfolios found in trash"
+msgstr ""
+
+#: app/Portfolio/Component.php:46
+msgid "Portfolio Image"
+msgstr ""
+
+#: app/Portfolio/Component.php:47
+msgid "Set portfolio image"
+msgstr ""
+
+#: app/Portfolio/Component.php:48
+msgid "Remove portfolio image"
+msgstr ""
+
+#: app/Portfolio/Component.php:49
+msgid "Use as portfolio image"
+msgstr ""
+
+#: app/Portfolio/Component.php:50
+msgid "Insert into portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:51
+msgid "Uploaded to this portfolio"
+msgstr ""
+
+#: app/Portfolio/Component.php:52
+msgid "Filter portfolios list"
+msgstr ""
+
+#: app/Portfolio/Component.php:53
+msgid "Portfolios list navigation"
+msgstr ""
+
+#: app/Portfolio/Component.php:54
+msgid "Portfolios list"
+msgstr ""
+
+#: app/Portfolio/Manage/Component.php:29
+msgid "Project"
+msgstr ""
+
+#: app/Portfolio/Manage/Component.php:34
+msgid "Thumbnail"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:39
+#: app/Portfolio/Settings/Component.php:198
+msgid "Portfolio Settings"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:40
+msgid "Settings"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:67
+msgid "General Settings"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:68
+msgid "Permalinks"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:73
+msgid "Title"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:74
+msgid "Description"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:77
+msgid "Portfolio Base"
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:111
+msgid "General portfolio settings for your site."
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:127
+msgid ""
+"The name of your portfolio. May be used for the portfolio page title and "
+"other places, depending on your theme."
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:151
+msgid ""
+"Your portfolio description. This may be shown by your theme on the "
+"portfolio page."
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:165
+msgid "Set up custom permalinks for the portfolio section on your site."
+msgstr ""
+
+#: app/Portfolio/Settings/Component.php:205
+msgid "Update Settings"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:33
+#: app/Portfolio/Taxonomies/Component.php:35
+msgid "Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:34
+#: app/Portfolio/Taxonomies/Component.php:36
+msgid "Category"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:37
+msgid "Search Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:38
+msgid "Popular Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:39
+msgid "All Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:40
+msgid "Edit Category"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:41
+msgid "View Category"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:42
+msgid "Update Category"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:43
+msgid "Add New Category"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:44
+msgid "New Category Name"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:45
+msgid "No Categories found."
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:46
+msgid "No Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:47
+msgid "Categories list navigation"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:48
+msgid "Categories list"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:51
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:52
+msgid "Add or remove Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:53
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:68
+#: app/Portfolio/Taxonomies/Component.php:70
+msgid "Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:69
+#: app/Portfolio/Taxonomies/Component.php:71
+msgid "Tag"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:72
+msgid "Search Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:73
+msgid "Popular Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:74
+msgid "All Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:75
+msgid "Edit tag"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:76
+msgid "View tag"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:77
+msgid "Update tag"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:78
+msgid "Add New tag"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:79
+msgid "New tag Name"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:80
+msgid "No Tags found."
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:81
+msgid "No Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:82
+msgid "Tags list navigation"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:83
+msgid "Tags list"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:86
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:87
+msgid "Add or remove Tags"
+msgstr ""
+
+#: app/Portfolio/Taxonomies/Component.php:88
+msgid "Choose from the most used Tags"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Backdrop Custom Portfolio"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://luthemes.com/portfolio/backdrop-custom-portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple way to create custom portfolio."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Benjamin Lu"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://luthemes.com"
+msgstr ""

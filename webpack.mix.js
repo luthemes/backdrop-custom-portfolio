@@ -63,16 +63,7 @@ mix.options( {
  *
  * @link https://laravel.com/docs/5.6/mix#versioning-and-cache-busting
  */
-mix.version();
-
-/*
- * Compile JavaScript.
- *
- * @link https://laravel.com/docs/5.6/mix#working-with-scripts
- */
-mix.js( `${devPath}/js/app.js`, 'assets/js' )
-	.js( `${devPath}/js/customize/customize-controls.js`, 'assets/js' )
-	.js( `${devPath}/js/navigation.js`, 'assets/js' );
+mix.version();;
 
 /*
  * Compile CSS. Mix supports Sass, Less, Stylus, and plain CSS, and has functions
@@ -84,7 +75,4 @@ mix.js( `${devPath}/js/app.js`, 'assets/js' )
  */
 
 // Compile SASS/CSS.
-mix.sass( `${devPath}/scss/screen.scss`, 'assets/css', )
-   .sass( `${devPath}/scss/editor.scss`, 'assets/css' )
-   .sass( `${devPath}/scss/admin.scss`, 'assets/css' )
-   .sass( `${devPath}/scss/customize/customize-controls.scss`, 'assets/css', );
+mix.sass( `${devPath}/scss/screen.scss`, 'assets/css');
