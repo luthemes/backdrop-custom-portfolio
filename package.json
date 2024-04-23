@@ -1,0 +1,31 @@
+{
+    "name": "initiator",
+    "version": "1.0.0",
+    "description": "Initiator is a WordPress Starter Theme.",
+    "main": "resources/assets/js/app.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/benlumia007/initiator.git"
+    },
+    "author": "Benjamin Lu",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/benlumia007/initiator/issues"
+    },
+    "homepage": "https://github.com/benlumia007/initiator#readme",
+    "scripts": {
+          "build": "npm run prod && npm run i18n && npm run export",
+      "watch": "mix watch",
+      "prod": "mix --production",
+      "export": "mix --mix-config=webpack.mix.export.js",
+          "i18n": "npm run i18n:textdomain && npm run i18n:pot",
+          "i18n:textdomain": "npx wpi18n addtextdomain --exclude=vendor,node_modules",
+          "i18n:pot": "npx wpi18n makepot --domain-path=/public/lang"
+    },
+    "devDependencies": {
+      "laravel-mix": "^6.0.31",
+      "node-wp-i18n": "^1.2.7",
+      "sass": "^1.42.1",
+      "sass-loader": "^11.1.1"
+    }
+  }
