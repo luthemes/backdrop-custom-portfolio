@@ -1,1 +1,4 @@
-
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  height: auto;
+  max-width: 100%;
+}
