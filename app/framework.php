@@ -26,6 +26,7 @@ $bcp = Backdrop\booted() ? Backdrop\app() : new Backdrop\Core\Application();
 # Here are the default service providers that are essential for the theme to function
 # before booting the application. These service providers form the foundation for the
 # theme.
+$bcp->provider( Backdrop\Mix\Provider::class );
 $bcp->provider( BCP\Portfolio\Provider::class );
 $bcp->provider( BCP\Portfolio\Taxonomies\Provider::class );
 

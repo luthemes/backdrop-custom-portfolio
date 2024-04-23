@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca829ad600833c4be2c77d7dd98101f0",
+    "content-hash": "233d3389fe6d0b796ef78eeed6bb4735",
     "packages": [
         {
             "name": "backdrop-dev/framework",
@@ -55,6 +55,57 @@
                 "source": "https://github.com/backdrop-dev/framework/tree/v1.0.0"
             },
             "time": "2023-06-11T16:13:29+00:00"
+        },
+        {
+            "name": "backdrop-dev/mix",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/backdrop-dev/mix.git",
+                "reference": "cf8120285e500607b2d98e6c49bdb40dfded27db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/backdrop-dev/mix/zipball/cf8120285e500607b2d98e6c49bdb40dfded27db",
+                "reference": "cf8120285e500607b2d98e6c49bdb40dfded27db",
+                "shasum": ""
+            },
+            "require": {
+                "backdrop-dev/framework": "^1.0",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions-helpers.php"
+                ],
+                "psr-4": {
+                    "Backdrop\\Mix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://benjlu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Backdrop Mix is a helper class for ClassicPress or WordPress plugins themes and plugins using Laravel Mix.",
+            "homepage": "https://github.com/backdrop-dev/mix",
+            "keywords": [
+                "classicpress",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/backdrop-dev/mix/issues",
+                "source": "https://github.com/backdrop-dev/mix/tree/v1.0.0"
+            },
+            "time": "2023-06-11T18:19:55+00:00"
         }
     ],
     "packages-dev": [],
