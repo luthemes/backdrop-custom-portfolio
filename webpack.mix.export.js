@@ -22,6 +22,7 @@ let exportPath = 'backdrop-custom-portfolio';
 
 // Theme root-level files to include.
 let files = [
+    'backdrop-custom-portfolio',
 	'readme.txt',
 ];
 
