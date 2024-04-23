@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ca829ad600833c4be2c77d7dd98101f0",
+    "packages": [
+        {
+            "name": "backdrop-dev/framework",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/backdrop-dev/framework.git",
+                "reference": "3e9b07d55713d10f1295d8abedb0e88051c44966"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/backdrop-dev/framework/zipball/3e9b07d55713d10f1295d8abedb0e88051c44966",
+                "reference": "3e9b07d55713d10f1295d8abedb0e88051c44966",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions-helpers.php"
+                ],
+                "psr-4": {
+                    "Backdrop\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://benjlu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Backdrop Framework: A framework for developing ClassicPress and WordPress themes and plugins.",
+            "homepage": "https://benjlu.com/project/backdrop-dev",
+            "keywords": [
+                "classicpress",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/backdrop-dev/framework/issues",
+                "source": "https://github.com/backdrop-dev/framework/tree/v1.0.0"
+            },
+            "time": "2023-06-11T16:13:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

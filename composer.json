@@ -1,0 +1,29 @@
+{
+    "name": "luthemes/backdrop-custom-portfolio",
+    "description": "A simple way to create a portfolio.",
+    "keywords": [ "wordpress", "plugin" ],
+    "homepage": "https://luthemes.com/portfolio/backdrop-custom-portfolio",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Lu",
+            "email": "benlumia007@gmail.com",
+            "homepage": "https://luthemes.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BCP\\": "app/"
+		},
+        "files": [
+            "app/framework.php",
+            "app/functions-options.php",
+            "app/functions-rewrites.php",
+            "app/functions-scripts.php"
+        ]
+    },
+    "require": {
+		"php": ">=7.1",
+		"backdrop-dev/framework": "^1.0"
+	}
+}
