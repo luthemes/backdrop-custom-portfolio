@@ -24,7 +24,7 @@
     },
     "require": {
 		"php": ">=7.1",
-		"backdrop-dev/framework": "^1.0",
-        "backdrop-dev/mix": "^1.0"
+		"backdrop-dev/framework": "dev-develop",
+        "backdrop-dev/mix": "dev-develop"
 	}
 }

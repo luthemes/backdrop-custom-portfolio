@@ -208,7 +208,7 @@ class Component implements Bootable {
 			</div><!-- wrap -->
 	<?php }
 
-	public function boot() {
+	public function boot(): void {
 
 		// Custom columns on the edit portfolio items screen.
 		add_action( 'admin_menu', array( $this, 'admin_menu' ) );

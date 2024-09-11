@@ -4,25 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "233d3389fe6d0b796ef78eeed6bb4735",
+    "content-hash": "7735577bc3e3d3cb517d2b0903298ed2",
     "packages": [
         {
-            "name": "backdrop-dev/framework",
-            "version": "v1.0.0",
+            "name": "backdrop-dev/contracts",
+            "version": "1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/backdrop-dev/framework.git",
-                "reference": "3e9b07d55713d10f1295d8abedb0e88051c44966"
+                "url": "https://github.com/backdrop-dev/contracts.git",
+                "reference": "4dd506178abea2fc83cf80531ebc7af96deb85e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/backdrop-dev/framework/zipball/3e9b07d55713d10f1295d8abedb0e88051c44966",
-                "reference": "3e9b07d55713d10f1295d8abedb0e88051c44966",
+                "url": "https://api.github.com/repos/backdrop-dev/contracts/zipball/4dd506178abea2fc83cf80531ebc7af96deb85e8",
+                "reference": "4dd506178abea2fc83cf80531ebc7af96deb85e8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Backdrop\\Contracts\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://benjlu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Backdrop Contracts for Backdrop framework.",
+            "homepage": "https://github.com/benlumia007/backdrop-contracts",
+            "keywords": [
+                "classicpress",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/benlumia007/backdrop-contracts/issues",
+                "source": "https://github.com/backdrop-dev/contracts/tree/1.0"
+            },
+            "time": "2024-07-16T18:06:26+00:00"
+        },
+        {
+            "name": "backdrop-dev/framework",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/backdrop-dev/framework.git",
+                "reference": "850999224860bf53ff0952a0841de41c24db4b13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/backdrop-dev/framework/zipball/850999224860bf53ff0952a0841de41c24db4b13",
+                "reference": "850999224860bf53ff0952a0841de41c24db4b13",
+                "shasum": ""
+            },
+            "require": {
+                "backdrop-dev/contracts": "^1.0",
+                "php": ">=7.4"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -52,28 +101,28 @@
             ],
             "support": {
                 "issues": "https://github.com/backdrop-dev/framework/issues",
-                "source": "https://github.com/backdrop-dev/framework/tree/v1.0.0"
+                "source": "https://github.com/backdrop-dev/framework/tree/develop"
             },
-            "time": "2023-06-11T16:13:29+00:00"
+            "time": "2024-08-11T03:48:27+00:00"
         },
         {
             "name": "backdrop-dev/mix",
-            "version": "v1.0.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/backdrop-dev/mix.git",
-                "reference": "cf8120285e500607b2d98e6c49bdb40dfded27db"
+                "reference": "d06867563d0bc137773976ba7d6259fa5623fce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/backdrop-dev/mix/zipball/cf8120285e500607b2d98e6c49bdb40dfded27db",
-                "reference": "cf8120285e500607b2d98e6c49bdb40dfded27db",
+                "url": "https://api.github.com/repos/backdrop-dev/mix/zipball/d06867563d0bc137773976ba7d6259fa5623fce5",
+                "reference": "d06867563d0bc137773976ba7d6259fa5623fce5",
                 "shasum": ""
             },
             "require": {
-                "backdrop-dev/framework": "^1.0",
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -103,15 +152,18 @@
             ],
             "support": {
                 "issues": "https://github.com/backdrop-dev/mix/issues",
-                "source": "https://github.com/backdrop-dev/mix/tree/v1.0.0"
+                "source": "https://github.com/backdrop-dev/mix/tree/develop"
             },
-            "time": "2023-06-11T18:19:55+00:00"
+            "time": "2024-07-17T18:43:56+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "backdrop-dev/framework": 20,
+        "backdrop-dev/mix": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

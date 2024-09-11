@@ -15,7 +15,7 @@ use Backdrop\Contracts\Bootable;
 
 class Component implements Bootable {
 
-	public function boot() {
+	public function boot(): void {
 
 		// Custom columns on the edit portfolio items screen.
 		add_filter( "manage_edit-portfolio_columns",        [ $this, 'columns' ]            );

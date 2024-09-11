@@ -15,7 +15,7 @@ use Backdrop\Contracts\Bootable;
 
 class Component implements Bootable {
 
-	public function boot() {
+	public function boot(): void {
 
 		// Register taxonomies on the 'init' hook with a priority of 9.
 		add_action( 'init', [ $this, 'create_taxonomies' ], 9 );

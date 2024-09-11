@@ -31,12 +31,12 @@ class Provider extends ServiceProvider {
 	 * @access public
 	 * @return void
 	 */
-	public function register() {
+	public function register(): void {
 		$this->app->singleton( 'bcp/portfolio/taxonomy', Component::class );
 
 	}
 
-	public function boot() {
+	public function boot(): void {
 		$this->app->resolve( 'bcp/portfolio/taxonomy' )->boot();
 	}
 }

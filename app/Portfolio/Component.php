@@ -14,7 +14,7 @@ use Backdrop\Contracts\Bootable;
 
 class Component implements Bootable {
 
-	public function boot() {
+	public function boot(): void {
 
 		// Register custom post type on the 'init' hook.
 		add_action( 'init', [ $this, 'register_post_type' ] );
