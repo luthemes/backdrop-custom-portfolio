@@ -73,7 +73,7 @@ function bcp_get_default_settings(): array {
 		'portfolio_title'			=> esc_html__( 'Portfolio', 'backdrop-custom-portfolio' ),
 		'portfolio_description'		=> '',
 		'portfolio_rewrite_base'	=> 'portfolio',
-		'portfolio_type' 			=> 'portfolio',
+		'portfolio_type' 			=> 'backdrop-portfolio',
 		'portfolio_category'		=> 'portfolio-category',
 		'portfolio_tag'				=> 'portfolio-tag'
 	];
