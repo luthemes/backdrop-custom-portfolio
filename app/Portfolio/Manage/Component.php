@@ -18,8 +18,8 @@ class Component implements Bootable {
 	public function boot(): void {
 
 		// Custom columns on the edit portfolio items screen.
-		add_filter( "manage_edit-portfolio_columns",        [ $this, 'columns' ]            );
-		add_action( "manage_portfolio_posts_custom_column", [ $this, 'custom_column'], 10, 2 );
+		add_filter( "manage_edit-backdrop-portfolio_columns",        [ $this, 'columns' ]            );
+		add_action( "manage_backdrop-portfolio_posts_custom_column", [ $this, 'custom_column'], 10, 2 );
 	}
 
 	public function columns( $columns ) {
